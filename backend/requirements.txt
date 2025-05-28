@@ -1,0 +1,20 @@
+fastapi==0.110.1
+uvicorn==0.29.0
+pydantic==2.6.4
+pydantic-settings==2.2.1
+python-jose==3.3.0
+passlib==1.7.4
+bcrypt==4.1.2
+python-multipart==0.0.9
+python-dotenv==1.0.1
+sqlalchemy==2.0.29
+psycopg2-binary==2.9.9
+alembic==1.13.1
+tenacity==8.2.3
+pytest==8.0.0
+httpx==0.26.0
+requests==2.31.0
+python-dateutil==2.8.2
+boto3==1.33.11  # For S3 integration if needed
+stripe==8.2.0   # For payment processing
+bunny-video-python==0.2.0  # For BunnyCDN integration
